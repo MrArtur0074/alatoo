@@ -19,4 +19,9 @@ module.exports = {
     'prefer-const': 'off',
     'react/prop-types': 0,
   },
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+  },
 }
