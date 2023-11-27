@@ -1,5 +1,7 @@
 import {useState} from 'react'
+// @ts-expect-error: Svg image
 import reactLogo from './assets/react.svg'
+// @ts-expect-error: Svg image
 import viteLogo from '/vite.svg'
 import './App.css'
 
